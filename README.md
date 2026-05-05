@@ -2,6 +2,7 @@
 
 ### A Comparative Study of A*, RRT*, and PSO in Urban Environments
 
+[![IEEE](https://img.shields.io/badge/IEEE-Paper-blue)](https://ieeexplore.ieee.org/document/11037069)
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2023a-orange)
 ![Status](https://img.shields.io/badge/status-research-green)
 ![License](https://img.shields.io/badge/license-MIT-blue)
@@ -25,6 +26,16 @@ This repository presents a **3D UAV path planning benchmark framework** comparin
 *  **PSO** — optimization-based trajectory generation
 
 All algorithms are evaluated in **realistic 3D urban environments** with obstacles.
+
+---
+
+## 📄 Paper
+
+**Comparative Analysis of UAV Path Planning Algorithms for Efficient Navigation in Urban 3D Environments**
+
+📍 AFROS 2024 — Tlemcen, Algeria  
+
+🔗 https://ieeexplore.ieee.org/document/11037069
 
 ---
 
