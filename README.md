@@ -28,12 +28,10 @@ All algorithms are evaluated in **realistic 3D urban environments** with obstacl
 
 ---
 
-## 🖼️ Demo (Add your figure here)
-
-> 📸 Replace this with your plot or animation
+## 🖼️ Demo 
 
 ```markdown
-![Demo](results/demo.png)
+![Demo](results/demo.jpg)
 ```
 
 ---
