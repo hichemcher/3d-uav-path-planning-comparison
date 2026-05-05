@@ -28,11 +28,11 @@ All algorithms are evaluated in **realistic 3D urban environments** with obstacl
 
 ---
 
-## 🖼️ Demo 
+## 🖼️ Demo
 
-```markdown
-![Demo](results/demo.jpg)
-```
+<p align="center">
+  <img src="results/demo.jpg" width="700"/>
+</p>
 
 ---
 
