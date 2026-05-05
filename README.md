@@ -1,4 +1,4 @@
-# 🚁 3D UAV Path Planning Benchmark
+#  3D UAV Path Planning Benchmark
 
 ### A Comparative Study of A*, RRT*, and PSO in Urban Environments
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 👨‍🔬 Author
+##  Author
 
 **H. CHERIET**
 🎓 USTO-MB — Université des Sciences et de la Technologie d'Oran
@@ -20,9 +20,9 @@
 
 This repository presents a **3D UAV path planning benchmark framework** comparing:
 
-* 🔵 **A*** — graph-based optimal search
-* 🟢 **RRT*** — sampling-based exploration
-* 🔴 **PSO** — optimization-based trajectory generation
+*  **A*** — graph-based optimal search
+*  **RRT*** — sampling-based exploration
+*  **PSO** — optimization-based trajectory generation
 
 All algorithms are evaluated in **realistic 3D urban environments** with obstacles.
 
@@ -52,17 +52,18 @@ run('experiments/Comparison.m')
 
 ## 🧪 Experiments
 
-The framework reproduces **six benchmark scenarios**:
+The framework reproduces **four benchmark scenarios**:
 
-* 🏙️ Sparse vs Dense environments
-* 📏 Small vs Large maps
-* 🏔️ Low vs High altitude
+*  Sparse environment
+*  Small map
+*  Large map
+*  Normal Map
 
 Each scenario evaluates:
 
-* 📏 Path Length
-* 🔄 Turning Angles
-* ⏱️ Computation Time
+*  Path Length
+*  Turning Angles
+*  Computation Time
 
 ---
 
@@ -82,7 +83,7 @@ These results match the findings in the published paper.
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```text
 Comparison-Repo/
@@ -112,21 +113,21 @@ Comparison-Repo/
 
 ---
 
-## 🧠 Algorithms Overview
+##  Algorithms Overview
 
-### 🔵 A*
+###  A*
 
 * Optimal shortest path
 * Fast execution
 * Grid-based search
 
-### 🟢 RRT*
+###  RRT*
 
 * Random tree exploration
 * Works in high-dimensional spaces
 * Near-optimal
 
-### 🔴 PSO
+###  PSO
 
 * Bio-inspired optimization
 * Smooth trajectories
@@ -152,7 +153,7 @@ Measured using `tic / toc`
 
 ---
 
-## 🔬 Reproducibility
+##  Reproducibility
 
 ✔ Deterministic A*
 ✔ Seeded RRT* (`rng(1)`)
@@ -162,21 +163,25 @@ Measured using `tic / toc`
 
 ## 🚀 Future Work
 
-* 🔺 TIG / APPATT* integration
-* 🧠 Deep Learning-guided planning
-* ✈️ UAV dynamic constraints (MPC)
-* 🌍 ROS / Gazebo simulation
+*  TIG / APPATT* integration
+*  Deep Learning-guided planning
+*  UAV dynamic constraints (MPC)
+*  ROS / Gazebo simulation
 
 ---
 
 ## 📜 Citation
 
 ```bibtex
-@article{cheriet2025uav,
-  title={Comparative Analysis of UAV Path Planning Algorithms for Efficient Navigation in Urban 3D Environments},
-  author={Cheriet, Hichem and Badra, Khellat Kihel and Samira, Chouraqui},
-  journal={arXiv preprint arXiv:2508.16515},
-  year={2025}
+@inproceedings{cheriet2024uav,
+  author    = {Cheriet, Hichem and Badra, Khellat Kihel and Samira, Chouraqui},
+  title     = {Comparative Analysis of UAV Path Planning Algorithms for Efficient Navigation in Urban 3D Environments},
+  booktitle = {2024 International Conference of the African Federation of Operational Research Societies (AFROS)},
+  year      = {2024},
+  pages     = {1--8},
+  address   = {Tlemcen, Algeria},
+  doi       = {10.1109/AFROS62115.2024.11037069},
+  keywords  = {UAV, Path Planning, A*, RRT*, PSO, 3D Navigation}
 }
 ```
 
@@ -211,6 +216,7 @@ Research project on UAV path planning and control
 
 **H. CHERIET**
 Research in UAV Navigation & AI
+hichem.cheriet@univ-usto.dz
 
 ---
 
